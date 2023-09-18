@@ -14,7 +14,7 @@ void loop()
 {
 a0_output = analogRead(A0_in);
 threshold = digitalRead(D0);
-Serial.print(" Methane : ");
+Serial.print(" ETHANOL : ");
 Serial.println(a0_output);
 Serial.print(" Threshold : "); 
 Serial.print(threshold); 
